@@ -9,12 +9,21 @@ use Doctrine\Common\Collections\ArrayCollection;
 
 class BotEngine
 {
+    /**
+     * [__construct description]
+     * @param ArrayCollection|null $bots           [description]
+     * @param ArrayCollection|null $botSubstitutes [description]
+     */
     public function __construct(ArrayCollection $bots = null, ArrayCollection $botSubstitutes = null)
     {
         $this->bots = ($bots) ? $bots : new ArrayCollection();
         $this->botSubstitutes = ($botSubstitutes) ? $botSubstitutes : new ArrayCollection();
     }
 
+    /**
+     * [buildScores description]
+     * @return [type] [description]
+     */
     public function buildScores() : array
     {
         $scores = new ArrayCollection();

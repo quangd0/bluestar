@@ -21,11 +21,11 @@
           <tbody>
             {% for bot in bots %}
                 <tr>
-                  <td>1,015</td>
-                  <td>sodales</td>
-                  <td>ligula</td>
-                  <td>in</td>
-                  <td>libero</td>
+                  <td>{{ bot.name }}</td>
+                  <td>{{ bot.speed }}</td>
+                  <td>{{ bot.strength }}</td>
+                  <td>{{ bot.agility }}</td>
+                  <td>{{ bot.score }}</td>
                 </tr>
             {% endfor %}
           </tbody>
@@ -52,11 +52,11 @@
           <tbody>
             {% for substitute in substitutes %}
                 <tr>
-                  <td>1,015</td>
-                  <td>sodales</td>
-                  <td>ligula</td>
-                  <td>in</td>
-                  <td>libero</td>
+                  <td>{{ substitute.name }}</td>
+                  <td>{{ substitute.speed }}</td>
+                  <td>{{ substitute.strength }}</td>
+                  <td>{{ substitute.agility }}</td>
+                  <td>{{ substitute.score }}</td>
                 </tr>
             {% endfor %}
           </tbody>
