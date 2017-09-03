@@ -3,8 +3,66 @@
 {% block body %}
     <div id="wrapper">
         <div id="container">
+            <h2>Bot Players</h2>
         </div>    
     </div>
+
+    <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Bot Name</th>
+              <th>Speed</th>
+              <th>Strength</th>
+              <th>Agility</th>
+              <th>Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for bot in bots %}
+                <tr>
+                  <td>1,015</td>
+                  <td>sodales</td>
+                  <td>ligula</td>
+                  <td>in</td>
+                  <td>libero</td>
+                </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+    </div>
+
+    <div id="wrapper">
+        <div id="container">
+            <h2>Substitute Players</h2>
+        </div>    
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Bot Name</th>
+              <th>Speed</th>
+              <th>Strength</th>
+              <th>Agility</th>
+              <th>Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for substitute in substitutes %}
+                <tr>
+                  <td>1,015</td>
+                  <td>sodales</td>
+                  <td>ligula</td>
+                  <td>in</td>
+                  <td>libero</td>
+                </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+    </div>
+
 {% endblock %}
 
 {% block stylesheets %}
