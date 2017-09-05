@@ -21,7 +21,7 @@ Done -- But the substitute is not yet implemented as the players genereation was
 
 The codes were implement using Symfony 3.2.4 and php 7.1.9.
 
->**Code organizations:
+>**Code organizations:**
 
 >-./src/AppBundle/Controller/DefaultController.php
 >-./src/AppBundle/Objects
@@ -29,14 +29,14 @@ The codes were implement using Symfony 3.2.4 and php 7.1.9.
 >-        BotEngine.php
 >-        BotManager.php
 ->        BotPlayer.php
-./src/AppBundle/Resources/views
-        index.html.twig
+->./src/AppBundle/Resources/views
+->        index.html.twig
 
-PHPUnit Test
-./src/AppBundle/Tests/Objects
-        BotEngineTest.php
+**PHPUnit Test**
+>./src/AppBundle/Tests/Objects
+>        BotEngineTest.php
 
-Procedure to install the application
+**Procedure to install the application**
 
 1. cd to the source
 2. type > composer install
