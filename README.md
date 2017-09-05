@@ -5,7 +5,7 @@ A Symfony project created on March 19, 2017, 11:45 am.
 
 This the sample excercise coding with rough team roster building generation. There is more room to optimize the engine but for the purpose of coding style and ability I believe the codes are sufficient.
 
-The requirements:
+###The requirements:
 
 1. Each player bot created must have a unique name.
 Done
