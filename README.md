@@ -25,17 +25,17 @@ The codes were implement using Symfony 3.2.4 and php 7.1.9.
 
 >**Code organizations:**
 
->-./src/AppBundle/Controller/DefaultController.php
->-./src/AppBundle/Objects
+>- ./src/AppBundle/Controller/DefaultController.php
+>- ./src/AppBundle/Objects
 >-        BotAttribute.php
 >-        BotEngine.php
 >-        BotManager.php
 ->        BotPlayer.php
-->./src/AppBundle/Resources/views
+-> ./src/AppBundle/Resources/views
 ->        index.html.twig
 
 **PHPUnit Test**
->./src/AppBundle/Tests/Objects
+> ./src/AppBundle/Tests/Objects
 >        BotEngineTest.php
 
 **Procedure to install the application**
