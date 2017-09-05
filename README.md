@@ -30,13 +30,13 @@ The codes were implement using Symfony 3.2.4 and php 7.1.9.
 >-        BotAttribute.php
 >-        BotEngine.php
 >-        BotManager.php
-->        BotPlayer.php
--> ./src/AppBundle/Resources/views
-->        index.html.twig
+>-        BotPlayer.php
+>- ./src/AppBundle/Resources/views
+>-        index.html.twig
 
 **PHPUnit Test**
-> ./src/AppBundle/Tests/Objects
->        BotEngineTest.php
+>- ./src/AppBundle/Tests/Objects
+>-        BotEngineTest.php
 
 **Procedure to install the application**
 
