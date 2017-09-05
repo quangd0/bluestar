@@ -19,6 +19,7 @@
             </tr>
           </thead>
           <tbody>
+            {% set total_score = 0 %}
             {% for bot in bots %}
                 <tr>
                   <td>{{ bot.name }}</td>
@@ -27,7 +28,15 @@
                   <td>{{ bot.agility }}</td>
                   <td>{{ bot.score }}</td>
                 </tr>
+            {% set total_score = total_score + bot.score %}
             {% endfor %}
+            <tr class="alert alert-info" role="alert">
+                  <td>TEAM SCORE</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td >{{ total_score }}</td>
+            </tr>
           </tbody>
         </table>
     </div>

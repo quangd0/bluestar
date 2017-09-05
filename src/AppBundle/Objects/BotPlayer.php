@@ -51,6 +51,24 @@ class BotPlayer
     }
 
     /**
+     * Get the play attribute
+     * @return BotAttribute the player attribute
+     */
+    public function getAttribute() : BotAttribute
+    {
+        return $this->botAttribute;
+    }
+
+    public function setAttribute(BotAttribute $botAttribute)
+    {
+        $this
+            ->setSpeed($botAttribute->getSpeed())
+            ->setAgility($botAttribute->getAgility())
+            ->setStrength($botAttribute->getStrength());
+        return $this;
+    }
+
+    /**
      * [getSpeed description]
      * @return [type] [description]
      */
@@ -111,6 +129,7 @@ class BotPlayer
     public function setScore($value)
     {
         $this->score = $value;
+        return $this;
     }
 
     /**
