@@ -21,14 +21,14 @@ Done -- But the substitute is not yet implemented as the players genereation was
 
 The codes were implement using Symfony 3.2.4 and php 7.1.9.
 
-Code organizations:
+>**Code organizations:
 
-./src/AppBundle/Controller/DefaultController.php
-./src/AppBundle/Objects
-        BotAttribute.php
-        BotEngine.php
-        BotManager.php
-        BotPlayer.php
+>-./src/AppBundle/Controller/DefaultController.php
+>-./src/AppBundle/Objects
+>-        BotAttribute.php
+>-        BotEngine.php
+>-        BotManager.php
+->        BotPlayer.php
 ./src/AppBundle/Resources/views
         index.html.twig
 
