@@ -10,10 +10,11 @@ use AppBundle\Objects\{BotManager, BotAttribute, BotPlayer};
 class DefaultController extends Controller
 {
     /**
-     * @Route("/", name="homepage")
+     * @Route("/", name="homepage", defaults={"application_id" = 45316, "contactId" = null})
      */
     public function indexAction(Request $request)
     {
+        dump($request);
         $botManager = new BotManager();
 
         // Bot player

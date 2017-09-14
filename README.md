@@ -49,3 +49,7 @@ The codes were implement using Symfony 3.2.4 and php 7.1.9.
 
 1. cd to the root folder
 2. type > ./phpunit src/AppBundle/Tests
+
+** Vendor Added **
+> - composer require phpro/soap-client
+> - composer require --dev zendframework/zend-code:^3.0.4
